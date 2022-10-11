@@ -5,9 +5,9 @@ Spring 2021
 
 Phase 1. : Designing and implementation of an information retrieval system for [movies](https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset) dataset
 
-> The main purpose of this phase was to create an information retrieval system which I first preprocess texts using stemming, lemmatization, stop-words. Then, index the documents using positinal-index , dynamic indexing and bigram. After that i implemented some index compression method such as gamma-code, variable-byte and then added spell correction with the use of that bigram index, jaccard and edit distance. Finally, the documents were retrieved using TF-IDF algorithm and highlight the word that had an effect on the scoring algorithm. 
+>> The main purpose of this phase was to create an information retrieval system which I first preprocess texts using stemming, lemmatization, stop-words. Then, index the documents using positinal-index , dynamic indexing and bigram. After that i implemented some index compression method such as gamma-code, variable-byte and then added spell correction with the use of that bigram index, jaccard and edit distance. Finally, the documents were retrieved using TF-IDF algorithm and highlight the word that had an effect on the scoring algorithm. 
       
-> At the end, the efficiency of the system was evaluated using precision, recall, f1, ap, map and ndcg.
+>> At the end, the efficiency of the system was evaluated using precision, recall, f1, ap, map and ndcg.
        
 
 Phase 2. Machine Learning methods in text-processing
